@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold text-center mb-10">My Cart</h1>
+        
+        <div id="cart-items" class="space-y-6"></div>
+
+        <div class="total-section flex justify-end items-center mt-8">
+            <span class="text-lg font-semibold">Total:</span>
+            <span id="total-price" class="text-2xl font-bold ml-2">$0.00</span>
+        </div>
+    </div>
+</body>
+</html>
